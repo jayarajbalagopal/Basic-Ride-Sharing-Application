@@ -1,4 +1,4 @@
 # Carpool
-Android app that implements the concept o carpooling
+Android app that implements the concept of carpooling,
 uses php to implement backend services
 
