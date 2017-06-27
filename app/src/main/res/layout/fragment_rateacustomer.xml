@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.kannan.carpool.rateacustomer">
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ratingBar"
+        android:layout_alignEnd="@+id/ratingBar"
+        android:layout_alignStart="@+id/ratingBar"
+        android:layout_marginBottom="56dp"
+        android:text="Submit your rating"
+        android:textColor="@color/colorPrimary"/>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add your comments"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="82dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignStart="@+id/editText3" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textSize="25sp"
+        android:background="@drawable/customborder"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="52dp"
+        android:layout_above="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_alignEnd="@+id/textView5" />
+
+    <EditText
+        android:background="@drawable/customborder"
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:layout_below="@+id/ratingBar"
+        android:layout_marginTop="100dp"
+        android:layout_above="@+id/relativ"
+        android:layout_marginBottom="10dp"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/relativ">
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/addratings"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:text="SUBMIT"
+            android:textColor="@color/colorWhite"
+            fbutton:buttonColor="@color/colorPrimary"
+            fbutton:cornerRadius="5dp"
+            fbutton:shadowColor="@color/colorPrimaryDark"
+            fbutton:shadowEnabled="true"
+            fbutton:shadowHeight="5dp"
+            android:layout_marginLeft="50dp"/>
+
+        <info.hoang8f.widget.FButton
+
+            android:id="@+id/cancel"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:text="CANCEL"
+            android:textColor="@color/colorWhite"
+            fbutton:buttonColor="#ffe766"
+            fbutton:cornerRadius="5dp"
+            fbutton:shadowColor="@color/bootstrap_brand_warning"
+            fbutton:shadowEnabled="true"
+            fbutton:shadowHeight="5dp"
+            android:layout_marginRight="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

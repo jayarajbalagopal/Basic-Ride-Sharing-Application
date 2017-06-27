@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_devices_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_host"
+            android:icon="@drawable/ic_settings_input_antenna_black_24dp"
+            android:title="Host" />
+        <item
+            android:id="@+id/nav_client"
+            android:icon="@drawable/ic_near_me_black_24dp"
+            android:title="Search" />
+
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_account"
+                android:icon="@drawable/ic_group_black_24dp"
+                android:title="Acount " />
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_power_settings_new_black_24dp"
+                android:title="logout" />
+
+        </menu>
+    </item>
+
+</menu>
