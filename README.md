@@ -6,10 +6,10 @@ Use Cases :
 The backend is implemented using PHP.
 
 ### Requirements
-Android Studio
-PHP 7.0
-MySQL database
-Firebase Cloud API
+- Android Studio
+- PHP 7.0
+- MySQL database
+- Firebase Cloud API
 
 ### Design Block Diagram
 ![Design](images/DesignBlock.png)
